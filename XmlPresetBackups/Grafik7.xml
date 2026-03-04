@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="Grafik7" Bypassed="0" Gain="1.0" Balance="0.0"
+           VoiceLimit="64.0" KillFadeTime="20.0" IconColour="0" packageName=""
+           BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptSlider" id="Knob2" value="0.449999988079071"/>
+            <Control type="ScriptSlider" id="Gain" value="-5.130000114440918"/>
+            <Control type="ScriptButton" id="Analog" value="0.0"/>
+            <Control type="ScriptButton" id="BYPASS" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob5" value="0.8299999833106995"/>
+            <Control type="ScriptSlider" id="Knob6" value="0.5699999928474426"/>
+            <Control type="ScriptSlider" id="Knob7" value="0.5"/>
+            <Control type="ScriptSlider" id="Knob8" value="0.3999999761581421"/>
+            <Control type="ScriptSlider" id="Knob9" value="0.550000011920929"/>
+            <Control type="ScriptSlider" id="Knob10" value="0.2599999904632568"/>
+            <Control type="ScriptSlider" id="Knob11" value="0.3100000023841858"/>
+          </Content>
+          <UIData Source="Grafik7UIData"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="Chorus" ID="Chorus1" Bypassed="0" Rate="0.300000011920929"
+                   Width="0.0" Feedback="0.300000011920929" Delay="0.0">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

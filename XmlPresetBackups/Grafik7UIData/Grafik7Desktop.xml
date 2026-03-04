@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="ScriptImage2" x="0.0" y="0.0" width="620.0"
+             height="333.0" fileName="{PROJECT_FOLDER}Grafik7_1.3.png" locked="1"/>
+  <Component type="ScriptImage" id="PotiScale" x="526.0" y="140.0" fileName="{PROJECT_FOLDER}big_knob_scale_black.png"
+             width="80.0" height="80.0"/>
+  <Component type="ScriptSlider" id="Knob2" x="433.0" y="44.0" numStrips="100.0"
+             scaleFactor="0.699999988079071" showTextBox="0" width="38.0"
+             height="209.0" filmstripImage="{PROJECT_FOLDER}VINTAGE.png" enabled="0"/>
+  <Component type="ScriptSlider" id="Gain" x="540.0" y="154.0" numStrips="128.0"
+             scaleFactor="0.5199999809265137" showTextBox="0" height="60.0"
+             width="63.0" processorId="Chorus1" parameterId="Delay" isPluginParameter="1"
+             isMetaParameter="1" showValuePopup="Below" mode="Decibel" min="-12.0"
+             max="12.0" middlePosition="0.0" filmstripImage="{PROJECT_FOLDER}DrehreglerDark_unscharf_128.png"/>
+  <Component type="ScriptButton" id="Analog" x="275.0" y="278.0" height="32.0"
+             scaleFactor="0.5" processorId="Chorus1" parameterId="Delay" width="71.0"
+             filmstripImage="{PROJECT_FOLDER}Analog_1.2.png"/>
+  <Component type="ScriptButton" id="BYPASS" x="540.0" y="25.0" scaleFactor="0.3799999952316284"
+             width="60.0" filmstripImage="{PROJECT_FOLDER}BYPASS_1.1.png"/>
+  <Component type="ScriptSlider" id="Knob5" x="495.0" y="49.0" stepSize="0.009999999776482582"
+             showTextBox="0" scaleFactor="0.6499999761581421" numStrips="100.0"
+             height="208.0" width="37.0" filmstripImage="{PROJECT_FOLDER}Faderknobsmall1ligth_k&#252;rzer_1.2_100.png"/>
+  <Component type="ScriptImage" id="LOGO" x="23.0" y="274.0" width="37.0"
+             height="50.0" fileName="{PROJECT_FOLDER}Kugel_ATOM.png" scale="0.550000011920929"
+             popupOnRightClick="0"/>
+  <Component type="ScriptSlider" id="Knob6" x="92.0" y="49.0" stepSize="0.009999999776482582"
+             showTextBox="0" scaleFactor="0.6499999761581421" numStrips="100.0"
+             height="208.0" width="37.0" filmstripImage="{PROJECT_FOLDER}Faderknobsmall1ligth_k&#252;rzer_1.2_100.png"/>
+  <Component type="ScriptSlider" id="Knob7" x="159.0" y="49.0" stepSize="0.009999999776482582"
+             showTextBox="0" scaleFactor="0.6499999761581421" numStrips="100.0"
+             height="208.0" width="37.0" filmstripImage="{PROJECT_FOLDER}Faderknobsmall1ligth_k&#252;rzer_1.2_100.png"/>
+  <Component type="ScriptSlider" id="Knob8" x="226.0" y="49.0" stepSize="0.009999999776482582"
+             showTextBox="0" scaleFactor="0.6499999761581421" numStrips="100.0"
+             height="208.0" width="37.0" filmstripImage="{PROJECT_FOLDER}Faderknobsmall1ligth_k&#252;rzer_1.2_100.png"/>
+  <Component type="ScriptSlider" id="Knob9" x="293.0" y="49.0" stepSize="0.009999999776482582"
+             showTextBox="0" scaleFactor="0.6499999761581421" numStrips="100.0"
+             height="208.0" width="37.0" filmstripImage="{PROJECT_FOLDER}Faderknobsmall1ligth_k&#252;rzer_1.2_100.png"/>
+  <Component type="ScriptSlider" id="Knob10" x="360.0" y="49.0" stepSize="0.009999999776482582"
+             showTextBox="0" scaleFactor="0.6499999761581421" numStrips="100.0"
+             height="208.0" width="37.0" filmstripImage="{PROJECT_FOLDER}Faderknobsmall1ligth_k&#252;rzer_1.2_100.png"/>
+  <Component type="ScriptSlider" id="Knob11" x="427.0" y="49.0" stepSize="0.009999999776482582"
+             showTextBox="0" scaleFactor="0.6499999761581421" numStrips="100.0"
+             height="208.0" width="37.0" filmstripImage="{PROJECT_FOLDER}Faderknobsmall1ligth_k&#252;rzer_1.2_100.png"/>
+  <Component type="ScriptImage" id="GRAFIK7" x="266.0" y="27.0" fileName="{PROJECT_FOLDER}Grafik7_Text.png"
+             width="90.0" height="50.0" alpha="0.8999999761581421"/>
+  <Component type="ScriptImage" id="WWW" x="389.0" y="286.0" fileName="{PROJECT_FOLDER}page.png"
+             width="183.0" height="13.0" alpha="0.9100000262260437"/>
+  <Component type="ScriptLabel" id="Label1" x="55.0" y="65.0" text="12dB"
+             textColour="3778951224" fontName="Bai Jamjuree" fontStyle="Bold"
+             width="32.0" fontSize="12.0"/>
+  <Component type="ScriptLabel" id="Label2" x="55.0" y="209.0" text="-12dB"
+             textColour="3778951224" fontName="Bai Jamjuree" fontStyle="Bold"
+             width="32.0" fontSize="12.0"/>
+  <Component type="ScriptLabel" id="Label3" x="56.0" y="100.0" text="6dB"
+             textColour="3778951224" fontName="Bai Jamjuree" fontStyle="Bold"
+             width="32.0" fontSize="12.0"/>
+  <Component type="ScriptLabel" id="Label4" x="55.0" y="173.0" text="-6dB"
+             textColour="3778951224" fontName="Bai Jamjuree" fontStyle="Bold"
+             width="32.0" fontSize="12.0"/>
+  <Component type="ScriptLabel" id="Label5" x="56.0" y="137.0" text="0dB"
+             textColour="3778951224" fontName="Bai Jamjuree" fontStyle="Bold"
+             width="32.0" fontSize="12.0"/>
+  <Component type="ScriptImage" id="FaderScale" x="82.0" y="69.0" scale="0.6000000238418579"
+             width="14.0" height="186.0" fileName="{PROJECT_FOLDER}FaderScale_1.png"
+             popupOnRightClick="0"/>
+  <Component type="ScriptImage" id="FaderScale2" x="149.0" y="69.0" fileName="{PROJECT_FOLDER}FaderScale_1.png"
+             width="14.0" height="186.0" popupOnRightClick="0"/>
+  <Component type="ScriptImage" id="FaderScale3" x="216.0" y="69.0" fileName="{PROJECT_FOLDER}FaderScale_1.png"
+             height="186.0" width="14.0" text="" popupOnRightClick="0"/>
+  <Component type="ScriptImage" id="FaderScale4" x="283.0" y="69.0" fileName="{PROJECT_FOLDER}FaderScale_1.png"
+             width="14.0" height="171.0" popupOnRightClick="0"/>
+  <Component type="ScriptImage" id="FaderScale5" x="350.0" y="69.0" fileName="{PROJECT_FOLDER}FaderScale_1.png"
+             width="14.0" height="172.0" popupOnRightClick="0"/>
+  <Component type="ScriptImage" id="FaderScale6" x="417.0" y="69.0" fileName="{PROJECT_FOLDER}FaderScale_1.png"
+             width="14.0" height="174.0" popupOnRightClick="0"/>
+  <Component type="ScriptImage" id="FaderScale7" x="485.0" y="69.0" fileName="{PROJECT_FOLDER}FaderScale_1.png"
+             width="14.0" height="164.0" popupOnRightClick="0"/>
+  <Component type="ScriptLabel" id="Gain Text" x="544.0" y="118.0" text="GAIN"
+             width="43.0" fontName="Bai Jamjuree" itemColour2="4212133647"
+             textColour="3810138393" fontStyle="Bold" fontSize="17.0"/>
+</ContentProperties>
